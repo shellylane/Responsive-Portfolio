@@ -1,0 +1,237 @@
+body, html {
+    height: 100%;
+
+}
+
+.mainheader {
+    width: 100vw;
+    background-color: #ffffff;
+    border-color:#cccccc;
+    height:50px;
+    border:1px solid #cccccc;
+    margin:0;
+    margin-bottom: 20px;
+    position:fixed;
+    top:0;
+    left: 0;
+
+}
+
+.container {
+    width:960px;
+    margin:auto;
+}
+/* Stylize H1 */
+
+h1 {
+    background-color:#4aaaa5;
+    color:#ffffff;
+    width:200px;
+    float:left;
+    text-align:center;
+    line-height: 50px;
+    margin:0 auto;
+    height: 50px;
+    
+    
+
+
+
+
+
+}
+
+
+/* Add A White Background to Top Navigation Bar */
+.topnav {
+    background-color:#ffffff;
+    font-family: Arial, "helvetica Neau", Helvetica, sans-serif;
+    width:960px;
+
+}
+
+/* Style the links inside the Navigation Bar */
+
+.topnav a {
+    float:right;
+    font-family: Arial, "helvetica Neau", Helvetica, sans-serif;
+    text-align:center;
+    color:#777777;
+    font-size:17px;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color:black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.ative {
+    color:#4aaaa5
+}
+
+.maincontent {
+     width:960px;
+     font-family:Arial, "Helvetica Neau", Helvetica, Sans-serif;
+     background-color:#ffffff;
+     border:2px;
+     border-color:#dddddd;
+     border-style:solid;
+     padding:20px;
+     color:#777777;
+     margin: auto;
+     margin-top: 100px;
+     
+}
+
+.aboutme {
+    clear:both;
+    color:#4aaaa5;
+    border-bottom: 1.5px solid #cccccc;
+    background-color: white
+}
+
+#main-container {
+     width:960px;
+     font-family:Arial, "Helvetica Neau", Helvetica, Sans-serif;
+     background-color:#ffffff;
+     border:2px;
+     border-color:#dddddd;
+     border-style:solid;
+     padding:20px;
+     color:#777777;
+     margin: auto;
+     margin-top: 100px;
+}
+
+.imagesection {
+    float:left;
+    margin-right: 12px;
+}
+#portfoliocontainer {
+    width:600px;
+    height:550px;
+    font-family:Arial, "Helvetica Neau", Helvetica, Sans-serif;
+    background-color:#ffffff;
+    border:2px;
+    border-color:#dddddd;
+    border-style:solid;
+    padding:20px;
+    color:#777777;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.work {
+    position:relative;
+    float:left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 20px;
+
+
+}
+
+h3 {
+    position:absolute;
+    z-index: 3;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    width:200px;
+    text-align:center;
+    line-height: 50px;
+    height: 50px;
+    bottom:0;
+    left:0;
+
+}
+
+
+.form {
+    margin-bottom: 15px;
+
+}
+
+.formcontent {
+    width:600px;
+     font-family:Arial, "Helvetica Neau", Helvetica, Sans-serif;
+     background-color:#ffffff;
+     border:2px;
+     border-color:#dddddd;
+     border-style:solid;
+     padding:20px;
+     color:#777777;
+     margin: auto;
+     margin-top: 100px;
+}
+
+.emailname {
+    width: 580px;
+    height: 20px;
+    margin-bottom: 15px;
+    margin-top:15px;
+}
+
+.message {
+    width: 580px;
+    height: 200px;
+    margin-bottom: 15px;
+    margin-top:15px;
+}
+
+
+@media screen and (max-width: 980px) {
+
+    .maincontent {
+        width: 90%;
+        margin: auto;
+        margin-top: 100px;  
+   }
+   
+   .emailname {
+       margin-top: 25px;
+   }
+
+   .message {
+        margin-top: 15px;
+   }
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 90%;    
+    }
+    .topnav {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 640px) {
+
+    #portfoliocontainer {
+        width: 80%;
+        height: 1000px;
+    }
+
+    .work {
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .formcontent {
+        width:80%;
+    }
+    .emailname {
+        width: 90%;
+    
+    }
+    
+    .message {
+        width: 90%;
+       
+    }
+    
+}
