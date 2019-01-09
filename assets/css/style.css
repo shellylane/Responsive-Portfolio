@@ -18,20 +18,25 @@ body, html {
 }
 
 .container {
-    width:960px;
+    width:100%;
     margin:auto;
+    
 }
 /* Stylize H1 */
-
+.image {
+    float: left;
+    padding: 20px;
+}
 h1 {
-    background-color:#4aaaa5;
-    color:#ffffff;
+    
+    color:black;
     width:200px;
     float:left;
     text-align:center;
     line-height: 50px;
     margin:0 auto;
     height: 50px;
+    margin-left: 10%;
     
     
 
@@ -46,7 +51,8 @@ h1 {
 .topnav {
     background-color:#ffffff;
     font-family: Arial, "helvetica Neau", Helvetica, sans-serif;
-    width:960px;
+    width:90%;
+    margin-right: 10%
 
 }
 
@@ -89,7 +95,7 @@ h1 {
 
 .aboutme {
     clear:both;
-    color:#4aaaa5;
+    color:black;
     border-bottom: 1.5px solid #cccccc;
     background-color: white
 }
@@ -108,12 +114,11 @@ h1 {
 }
 
 .imagesection {
-    float:left;
-    margin-right: 12px;
+    
 }
 #portfoliocontainer {
-    width:600px;
-    height:550px;
+    width:75%;
+    height:auto;
     font-family:Arial, "Helvetica Neau", Helvetica, Sans-serif;
     background-color:#ffffff;
     border:2px;
@@ -126,25 +131,43 @@ h1 {
 }
 
 .work {
-    position:relative;
-    float:left;
-    margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 60px;
     margin-right: 20px;
+    width: 90%;
+
 
 
 }
+.ptext {
+    font-size: 20px;
+}
+.images {
+    width: 100%;
+    margin: 0;
+    
+}
 
 h3 {
-    position:absolute;
-    z-index: 3;
-    background-color:#4aaaa5;
+   
+    background-color:black;
     color:#ffffff;
-    width:200px;
+    width:100%;
     text-align:center;
     line-height: 50px;
     height: 50px;
+    bottom:0;
+    left:0;
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+.label {
+   
+    width:90%;
+    text-align:center;
+    font-size: 50px;
+    height: 200px;
     bottom:0;
     left:0;
 
